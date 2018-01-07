@@ -1,5 +1,7 @@
 # DjangoGetStarted
 
+[![Join the chat at https://gitter.im/mtianyan/DjangoGetStarted](https://badges.gitter.im/mtianyan/DjangoGetStarted.svg)](https://gitter.im/mtianyan/DjangoGetStarted?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/mtianyan/hexoBlog-Github.svg?branch=master)](https://travis-ci.org/mtianyan/hexoBlog-Github)
 
 A simple django project,I hope it can help you to learn the Django Basic Use Method
