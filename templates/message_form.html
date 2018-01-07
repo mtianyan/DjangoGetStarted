@@ -8,31 +8,33 @@
 
 </head>
 <body>
-<form action="/form/" method="post" class="smart-green">
+<form action="{% url "form_new" %}" method="post" class="smart-green">
     <h1>留言信息
         <span>请留下你的信息.</span>
     </h1>
     <label>
         <span>姓名 :</span>
-        <input id="name" type="text" name="name" class="error" placeholder="请输入您的姓名"/>
+        <input id="name" type="text" name="name"  value="{% ifequal my_message.name|slice:"8" "mtianyan1"|slice:"8" %}
+        对应中文昵称：天涯明月笙 {% else %} 未找到中文昵称
+        {% endifequal %}" class="error" placeholder="请输入您的姓名"/>
         <div class="error-msg"></div>
     </label>
 
     <label>
         <span>邮箱 :</span>
-        <input id="email" type="email" value="" name="email" placeholder="请输入邮箱地址"/>
+        <input id="email" type="email" value="{{ my_message.email}}" name="email" placeholder="请输入邮箱地址"/>
         <div class="error-msg"></div>
     </label>
 
     <label>
         <span>联系地址 :</span>
-        <input id="address" type="text" value="" name="address" placeholder="请输入联系地址"/>
+        <input id="address" type="text" value="{{ my_message.address}}" name="address" placeholder="请输入联系地址"/>
         <div class="error-msg"></div>
     </label>
 
     <label>
         <span>留言 :</span>
-        <textarea id="message" name="message"  placeholder="请输入你的建议"></textarea>
+        <textarea id="message" name="message"  placeholder="请输入你的建议">{{ my_message.message }}</textarea>
         <div class="error-msg"></div>
     </label>
     <div class="success-msg"></div>

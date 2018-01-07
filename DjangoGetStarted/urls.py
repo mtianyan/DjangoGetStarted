@@ -20,5 +20,8 @@ from message import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^form/$', getform)
+    url(r'^form/$', getform, name="form_new"),
+
+    # url(r'^form', getform, name="form_new"),
+    # url(r'^formtest',admin.site.urls)
 ]

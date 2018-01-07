@@ -1,8 +1,8 @@
 # DjangoGetStarted
 
-[![Join the chat at https://gitter.im/mtianyan/DjangoGetStarted](https://badges.gitter.im/mtianyan/DjangoGetStarted.svg)](https://gitter.im/mtianyan/DjangoGetStarted?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Build Status](https://travis-ci.org/mtianyan/hexoBlog-Github.svg?branch=master)](https://travis-ci.org/mtianyan/hexoBlog-Github)
+[![Join the chat at https://gitter.im/mtianyan/DjangoGetStarted](https://badges.gitter.im/mtianyan/DjangoGetStarted.svg)](https://gitter.im/mtianyan/DjangoGetStarted?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 A simple django project,I hope it can help you to learn the Django Basic Use Method
 
@@ -32,8 +32,12 @@ use the address: http://127.0.0.1:8000/form/
 [项目线上演示地址](http://mxonline.mtianyan.cn)
 [原版视频课程地址:](https://coding.imooc.com/learn/list/78.html)
 
->一次性的一个完整项目代码很难被学习，所以我采用commit记录源码快照 + 阶段性教程：
-教程会与对应得commit搭配。希望可以对大家有所帮助。
+>一次性的一个完整项目代码很难被学习，所以我采用commit记录源码快照 + 阶段性教程结合的形式。类似关卡式学习概念。
+
+- 每节教程前面会写明对应的上节commit：开始某一节教程的前置条件。
+- 每节教程后面会写明对应的已结束commit: 方便本节出错参考。
+
+希望可以对Django初学者，Python爱好者有所帮助。
 
 ## Contents：
 
@@ -48,11 +52,8 @@ use the address: http://127.0.0.1:8000/form/
 ## About me
 [简书](https://www.jianshu.com/u/db9a7a0daa1f) && [mtianyan's blog](http://blog.mtianyan.cn/)
 
-有趣的Python：619417153
+有趣的Python群：619417153
 
-欢迎关注简书，star项目！！！！！！！！
+欢迎关注简书，star项目！谢谢！
+
 你的关注支持是我继续分享前进的动力。
-
-## License
-
-**[MIT](https://opensource.org/licenses/MIT)**
